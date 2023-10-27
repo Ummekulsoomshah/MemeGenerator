@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+
+}
+.dark{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+    margin-bottom: 0px;
+
+}
+.img-title{
+   width: 70px;
+   margin-right: 6px;
+}
+.title{
+    font-style:20px;
+    margin-right: auto;
+}
+.project-title{
+    font-style: 12px;
+    font-weight: 500;
+}
+.inp{
+    margin-top: 50px;
+    text-align: center;
+    height: 700px;
+  
+    margin-top: 0px;
+}
+.darkinp{
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+    height: 700px;
+    margin-top: 0px;
+
+}
+input{
+    padding: 10px 30px;
+    width:30%;
+    margin: 20px;
+}
+button{
+    width: 600px;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 6px;
+    background-color: #672280;
+    border: none;
+    color: white;
+
+
+}
+.meme {
+    position: relative;
+}
+
+.meme--image {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.toggler{
+    display: flex;
+    align-items: center;
+}
+
+.toggler p{
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+.toggler--slider{
+    width: 25px;
+    height: 13px;
+    background-color: black;
+    border-radius: 2rem;
+    margin-inline:7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+header.dark .toggler--slider {
+    border-color: white;
+    background-color: #F5F5F5;
+}
+.toggler--slider--circle{
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+header.dark .toggler--slider--circle {
+    background-color: rgb(17, 15, 15);
+}
+.toggler--light {
+    color: #2B283A;
+}
+
+header.dark .toggler--light {
+    color: #918E9B;
+}
+
+.toggler--dark {
+    color: #D5D4D8;
+}
+
+header.dark .toggler-dark {
+    color: #FFFFFF;
+}
+
+header.dark .toggler--slider {
+    justify-content: flex-end;
+}
